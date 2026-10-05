@@ -1,0 +1,5 @@
+model,recall,precision,f1,roc_auc,fn,tp
+Dummy (predict no-death always),0.0,0.0,0.0,,15.0,0.0
+Threshold rule (unfit),0.8,0.14457831325301204,0.24489795918367346,,3.0,12.0
+Logistic Regression (balanced),0.24666666666666673,0.11699191998077615,0.15828771278202253,0.5069026548672566,11.3,3.7
+Random Forest (balanced),0.0,0.0,0.0,0.6033038348082596,15.0,0.0
