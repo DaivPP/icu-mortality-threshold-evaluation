@@ -1,6 +1,6 @@
 # Revisiting Clinical Severity Prediction: From Rule-Derived Labels to Real Outcomes
 
-Full write-up: [REPORT.md](./REPORT(1).md)
+Full write-up: [REPORT.md](./REPORT.md)
 
 A follow-up to an earlier capstone project (HEHCSP), which trained a classifier on
 synthetic, rule-derived triage labels and reported misleadingly high accuracy. This project
