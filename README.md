@@ -4,14 +4,14 @@ Full write-up: [REPORT.md](./REPORT.md)
 
 A follow-up to an earlier capstone project (HEHCSP), which trained a classifier on
 synthetic, rule-derived triage labels and reported misleadingly high accuracy. This project
-repeats the exercise on real clinical data — in-hospital mortality from the MIMIC-IV
-Clinical Database Demo — with proper cross-validation and threshold-aware evaluation under
+repeats the exercise on real clinical data in-hospital mortality from the MIMIC-IV
+Clinical Database Demo with proper cross-validation and threshold-aware evaluation under
 class imbalance.
 
 **Headline result:** early vital signs carry real but modest predictive signal
 (PR-AUC ≈ 0.18–0.19 against an 11.7% base rate). A Random Forest model, once its decision
 threshold is chosen fairly, modestly outperforms a transparent, un-fit clinical
-threshold rule — a much more honest and interesting finding than a single inflated
+threshold rule a much more honest and interesting finding than a single inflated
 accuracy number.
 
 ## Reproducing this
